@@ -8,7 +8,7 @@ This project implements a comprehensive machine learning pipeline on the Heart D
 
 ## Install Python and create environment
 
-1. Download and Install Python3.8 from [here](https://www.python.org/downloads/release/python-3119/)
+1. Download and install Python 3.11 from [here](https://www.python.org/downloads/release/python-3119/)
 2. Create a new environment using the following command:
 
 ```bash
@@ -32,7 +32,7 @@ $ pip install -r requirements.txt
 1. Run the following command to start the Streamlit app:
 
 ```bash
-$ streamlit run ui/app.py
+$ streamlit run ui/app.py --server.port 8501
 ```
 
 2. Open [http://localhost:8501](http://localhost:8501) in your web browser.
